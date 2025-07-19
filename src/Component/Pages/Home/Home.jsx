@@ -301,7 +301,7 @@ const Home = () => {
                                         transition={{ duration: 4, repeat: Infinity }}
                                         className="text-6xl"
                                     >
-                                        👨‍💻
+                                         <img src="https://i.ibb.co/N6Kg0tjv/480333197-645221228030124-8691638388967413239-n.jpg" alt="" />
                                     </motion.div>
                                 </div>
                             </div>
