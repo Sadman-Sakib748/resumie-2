@@ -8,62 +8,71 @@ import {
   BookOpen,
 } from "lucide-react";
 
-export const educationData = [
+export const educationData =  [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "University of Technology",
-    location: "Dhaka, Bangladesh",
-    period: "2020 - 2022",
-    gpa: "3.85/4.00",
-    description:
-      "Specialized in Machine Learning and Data Science with focus on deep learning algorithms and neural networks.",
-    achievements: ["Dean's List", "Research Assistant", "Published 2 papers"],
-    courses: [
-      "Advanced Algorithms",
-      "Machine Learning",
-      "Data Mining",
-      "Computer Vision",
-    ],
-  },
-  {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "National University",
+    degree: "Diploma in Agriculture",
+    institution: "Agricultural Training Institute",
     location: "Dhaka, Bangladesh",
     period: "2016 - 2020",
-    gpa: "3.72/4.00",
+    gpa: "3.85/4.00",
     description:
-      "Strong foundation in computer science fundamentals with emphasis on software engineering and programming.",
-    achievements: [
-      "Magna Cum Laude",
-      "Programming Contest Winner",
-      "Student Council Member",
-    ],
+      "Completed a diploma program with focus on agricultural science, crop management, and modern farming techniques.",
+    achievements: ["Practical Training", "Project Work on Sustainable Farming"],
     courses: [
-      "Data Structures",
-      "Software Engineering",
-      "Database Systems",
-      "Web Development",
+      "Crop Production",
+      "Soil Science",
+      "Irrigation & Water Management",
+      "Agricultural Economics",
     ],
   },
   {
-    degree: "Higher Secondary Certificate (HSC)",
-    institution: "Dhaka College",
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Your School Name",
     location: "Dhaka, Bangladesh",
     period: "2014 - 2016",
     gpa: "5.00/5.00",
     description:
-      "Science background with mathematics, physics, and chemistry as major subjects.",
-    achievements: ["Board Scholarship", "Science Olympiad Winner"],
+      "Completed SSC in Science group with emphasis on mathematics, physics, and chemistry.",
+    achievements: ["Board Scholarship", "Good Result in Science Group"],
     courses: ["Mathematics", "Physics", "Chemistry", "Biology"],
   },
 ];
 
 export const certifications = [
-  { name: "AWS Certified Solutions Architect", issuer: "Amazon Web Services", date: "2023", icon: "☁️" },
-  { name: "Google Cloud Professional Developer", issuer: "Google Cloud", date: "2023", icon: "🌐" },
-  { name: "Meta React Native Specialist", issuer: "Meta", date: "2022", icon: "📱" },
-  { name: "TensorFlow Developer Certificate", issuer: "TensorFlow", date: "2022", icon: "🤖" },
+  {
+    title: "AWS Certified Solutions Architect",
+    organization: "Amazon Web Services (AWS)",
+    year: "2023",
+    icon: "☁️",
+    description:
+      "Validated expertise in designing and deploying scalable, secure, and reliable applications on AWS cloud infrastructure.",
+  },
+  {
+    title: "Google Cloud Professional Developer",
+    organization: "Google Cloud",
+    year: "2023",
+    icon: "🌐",
+    description:
+      "Demonstrated ability to build, deploy, and optimize applications on Google Cloud Platform with modern DevOps practices.",
+  },
+  {
+    title: "Meta React Native Specialist",
+    organization: "Meta",
+    year: "2022",
+    icon: "📱",
+    description:
+      "Certified proficiency in developing cross-platform mobile applications using React Native framework.",
+  },
+  {
+    title: "TensorFlow Developer Certificate",
+    organization: "TensorFlow",
+    year: "2022",
+    icon: "🤖",
+    description:
+      "Proven skills in building and training machine learning models with TensorFlow for AI-driven applications.",
+  },
 ];
+
 
 // ===== Motion Variants =====
 const fadeUp = (delay = 0, y = 40) => ({

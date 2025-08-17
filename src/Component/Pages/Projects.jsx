@@ -5,10 +5,10 @@ import { ExternalLink, Github, Calendar, Users } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Mobile App",
+      title: "E-Commerce ",
       description:
         "A full-featured e-commerce mobile application built with Flutter and Firebase, featuring real-time inventory, payment integration, and user analytics.",
-      image: "/placeholder.svg",
+      image: "https://i.ibb.co/84PbRxPq/Screenshot-2025-07-30-185753.jpg",
       technologies: ["Flutter", "Firebase", "Stripe", "Node.js", "MongoDB"],
       category: "Mobile App",
       status: "Completed",
@@ -22,18 +22,18 @@ const Projects = () => {
         "Multi-language support",
       ],
       metrics: { downloads: "10K+", rating: "4.8/5", users: "5K+ active" },
-      links: { live: "#", github: "#" },
+      links: { live: "https://assignment-12-52342.web.app/", github: "https://github.com/Sadman-Sakib748/e-comarse-client" },
     },
     {
-      title: "AI-Powered Analytics Dashboard",
+      title: "e-Commarse",
       description:
-        "A comprehensive analytics dashboard with machine learning capabilities for business intelligence and data visualization.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Python", "TensorFlow", "D3.js", "PostgreSQL"],
-      category: "Web App",
+        " An online store with seamless shopping experience and responsive design.",
+      image: "https://i.ibb.co.com/L7L9GM8/Screenshot-2025-08-17-160210.png",
+      technologies: ["Next.js", "Node.js",  "express js", "mongose"],
+      category: "Web Site",
       status: "Completed",
       duration: "6 months",
-      team: "3 developers",
+      team: "N?A",
       features: [
         "Predictive analytics",
         "Interactive data visualization",
@@ -42,18 +42,18 @@ const Projects = () => {
         "API integrations",
       ],
       metrics: { accuracy: "94%", performance: "2x faster", users: "500+ companies" },
-      links: { live: "#", github: "#" },
+      links: { live: "https://event-hub-green.vercel.app/", github: "https://github.com/Sadman-Sakib748/nextJS-Event-Hubby" },
     },
     {
-      title: "Social Media Management Tool",
+      title: "Book Review",
       description:
         "A comprehensive social media management platform for scheduling posts, analyzing engagement, and managing multiple accounts.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "Express.js", "Redis", "AWS", "React Native"],
+      image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      technologies: ["REact js", "Express.js", "Firebase"],
       category: "SaaS Platform",
-      status: "In Progress",
+      status: "Compelete",
       duration: "8 months",
-      team: "7 developers",
+      team: "N/A",
       features: [
         "Multi-platform posting",
         "Engagement analytics",
@@ -62,67 +62,39 @@ const Projects = () => {
         "Automated responses",
       ],
       metrics: { posts: "1M+ scheduled", accounts: "50K+ managed", engagement: "+150%" },
-      links: { live: "#", github: "#" },
+      links: { live: "https://next-js-97ee7.web.app/", github: "https://github.com/Sadman-Sakib748/ejp-c" },
     },
     {
-      title: "Blockchain Voting System",
+      title: "Fashon",
       description:
-        "A secure and transparent voting system built on blockchain technology ensuring vote integrity and anonymity.",
-      image: "/placeholder.svg",
-      technologies: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
-      category: "Blockchain",
-      status: "Completed",
-      duration: "5 months",
-      team: "4 developers",
-      features: [
-        "Immutable vote records",
-        "Anonymous voting",
-        "Real-time results",
-        "Smart contract validation",
-        "Audit trail",
-      ],
-      metrics: { votes: "100K+ cast", security: "Zero breaches", transparency: "100%" },
-      links: { live: "#", github: "#" },
-    },
-    {
-      title: "IoT Home Automation",
-      description:
-        "Smart home automation system with mobile app control, voice commands, and energy monitoring capabilities.",
-      image: "/placeholder.svg",
-      technologies: ["React Native", "Arduino", "Raspberry Pi", "MQTT", "Firebase"],
-      category: "IoT",
-      status: "Completed",
+        "An online store with seamless shopping experience and responsive design.",
+      image: "https://i.ibb.co.com/Kpw2xGmg/Screenshot-2025-08-17-160602.png",
+      technologies: ["React js", "Node js", "Express.js", "MongoDB"],
+      category: "Product",
+      status: "In Progress",
       duration: "3 months",
-      team: "2 developers",
+      team: "N/A",
       features: [
-        "Voice control integration",
-        "Energy monitoring",
-        "Automated scheduling",
-        "Security alerts",
-        "Remote access",
+        "Smart device control",
       ],
       metrics: { devices: "50+ supported", energy: "30% savings", response: "<100ms" },
-      links: { live: "#", github: "#" },
+      links: { live: "https://product-hub-bb89f.web.app/", github: "https://github.com/Sadman-Sakib748/sel-product" },
     },
     {
-      title: "Learning Management System",
+      title: "Viscart Store",
       description:
-        "A comprehensive LMS platform for online education with video streaming, assessments, and progress tracking.",
-      image: "/placeholder.svg",
-      technologies: ["Vue.js", "Django", "PostgreSQL", "Redis", "AWS S3"],
+        "Viscart is a modern and responsive e-commerce platform built with React, Tailwind CSS, and Firebase..",
+      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js", "Firebase"],
       category: "Education",
-      status: "Completed",
-      duration: "7 months",
+      status: "in Progress",
+      duration: "5 months",
       team: "6 developers",
       features: [
-        "Video streaming",
-        "Interactive assessments",
-        "Progress tracking",
-        "Discussion forums",
-        "Certificate generation",
+
       ],
       metrics: { students: "10K+ enrolled", courses: "500+ available", completion: "85% rate" },
-      links: { live: "#", github: "#" },
+      links: { live: "https://job-holder-cf96f.web.app/", github: "https://github.com/Sadman-Sakib748/viscart-client" },
     },
   ];
 
@@ -131,7 +103,6 @@ const Projects = () => {
     "Mobile App",
     "Web App",
     "SaaS Platform",
-    "Blockchain",
     "IoT",
     "Education",
   ];
@@ -160,7 +131,7 @@ const Projects = () => {
           >
             🚀
           </motion.div>
-            <h1 className="text-5xl font-bold mb-4">Projects</h1>
+          <h1 className="text-5xl font-bold mb-4">Projects</h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             A showcase of my work spanning mobile apps, web applications, and
             innovative solutions across various domains.
@@ -271,19 +242,21 @@ const Projects = () => {
                 </div>
 
                 {/* Features */}
-                <div className="mb-4">
-                  <h4 className="font-semibold text-white mb-2">
-                    Key Features:
-                  </h4>
-                  <ul className="text-sm text-gray-400 space-y-1">
-                    {project.features.slice(0, 3).map((f, i) => (
-                      <li key={i} className="flex items-start">
-                        <span className="text-pink-400 mr-2">•</span>
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                {project.features && (
+                  <div className="mb-4">
+                    <h4 className="font-semibold text-white mb-2">
+                      Key Features:
+                    </h4>
+                    <ul className="text-sm text-gray-400 space-y-1">
+                      {project.features.slice(0, 3).map((f, i) => (
+                        <li key={i} className="flex items-start">
+                          <span className="text-pink-400 mr-2">•</span>
+                          <span>{f}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
                 {/* Metrics */}
                 <div className="mb-6">

@@ -78,6 +78,7 @@ const Contact = () => {
         }
     ];
 
+
     const socialLinks = [
         { icon: Github, href: "https://github.com/Sadman-Sakib748" },
         { icon: Linkedin, href: "https://www.linkedin.com/in/sadman-sakib-442804372/" },
